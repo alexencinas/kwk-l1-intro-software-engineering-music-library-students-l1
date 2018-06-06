@@ -49,7 +49,8 @@ def delete_artist
     "Avicii" => "Wake Me Up",
     "The Chainsmokers" => "Closer",
   }
-  playlist
+  
+end 
   
 
 
