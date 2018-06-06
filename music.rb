@@ -31,7 +31,7 @@ def list_songs
     "Avicii" => "Wake Me Up",
     "The Chainsmokers" => "Closer",
   }
-  songs = playlist.value
+  songs = playlist.values
   puts songs
 end
 list_songs
