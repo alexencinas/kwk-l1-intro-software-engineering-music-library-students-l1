@@ -75,7 +75,7 @@ def new_addition
   puts "Enter the title of the song:"
   song = gets.chomp
   
-  playlist["artist"] = "song"
+  playlist[artist] = song
   
   puts playlist
 end
