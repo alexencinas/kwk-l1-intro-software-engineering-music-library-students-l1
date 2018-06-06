@@ -70,7 +70,9 @@ def new_addition
     "Avicii" => "Wake Me Up",
     "The Chainsmokers" => "Closer",
   }
+  puts "Enter the Artist:"
   artist = gets.chomp
+  puts "Enter the title of the song:"
   song = gets.chomp
   
   playlist["artist"] = "song"
