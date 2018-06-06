@@ -49,7 +49,8 @@ def delete_artist
     "Avicii" => "Wake Me Up",
     "The Chainsmokers" => "Closer",
   }
-  playlist.delete!(gets.chomp)
+  variable = gets.chomp
+  playlist.delete!(variable)
 end 
 delete_artist
 
