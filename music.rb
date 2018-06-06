@@ -60,3 +60,19 @@ delete_artist
 #4. This method should add a new artist and song (key value pair) to the hash and return the updated hash. 
 # This method should accept three arguments, the library hash, the artist, and the song
 
+def new_addition
+   playlist = {
+    "One Direction" => "What Makes You Beautiful", 
+    "Justin Bieber" => "Baby", 
+    "Drake" => "Nice for What",
+    "Jonas Brothers" => "Year 3000", 
+    "Cardi B"=> "Bartier Cardi",
+    "Avicii" => "Wake Me Up",
+    "The Chainsmokers" => "Closer",
+  }
+  artist = gets.chomp
+  song = gets.chomp
+  
+  playlist["artist"] = "song"
+end
+new_addition
