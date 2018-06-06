@@ -76,5 +76,7 @@ def new_addition
   song = gets.chomp
   
   playlist["artist"] = "song"
+  
+  puts playlist
 end
 new_addition
