@@ -50,7 +50,7 @@ def delete_artist
     "The Chainsmokers" => "Closer",
   }
   variable = gets.chomp
-  playlist.delete!(variable)
+  playlist.delete(variable)
 end 
 delete_artist
 
