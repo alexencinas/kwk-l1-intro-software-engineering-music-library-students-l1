@@ -22,6 +22,19 @@ lists_artists
 # This method should accept a hash as an argument.
 
 def list_songs 
+   playlist = {
+    "One Direction" => "What Makes You Beautiful", 
+    "Justin Bieber" => "Baby", 
+    "Drake" => "Nice for What",
+    "Jonas Brothers" => "Year 3000", 
+    "Cardi B"=> "Bartier Cardi",
+    "Avicii" => "Wake Me Up",
+    "The Chainsmokers" => "Closer",
+  }
+  songs = playlist.value
+  puts songs
+end
+list_songs
 
 #3. Define a method `delete_artist`. This method should take delete the key-value pair from the hash based on the artist and returned the updated hash.
 #This method should take two arguments, the music library hash, and the artist. Remember, keys in hashes are symbols, so you'll need to expect the method to accept the artist as a symbol. 
