@@ -49,7 +49,7 @@ def delete_artist
     "Avicii" => "Wake Me Up",
     "The Chainsmokers" => "Closer",
   }
-  playlist.delete!(:)
+  playlist.delete!(:gets.chomp)
 end 
   
 
