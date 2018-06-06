@@ -51,6 +51,8 @@ def delete_artist
   }
   variable = gets.chomp
   playlist.delete(variable)
+  
+  puts playlist 
 end 
 delete_artist
 
